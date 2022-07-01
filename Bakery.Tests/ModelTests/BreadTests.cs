@@ -25,5 +25,14 @@ namespace BreadBakery.Tests
       newSale.BreadSales();
       Assert.AreEqual(15, newSale.BreadSalesTotal);
     }
+    [TestMethod]
+    public void BreadDiscount_BuyTwoGetOneFree_int()
+    {
+      Bread newSale = new Bread("3");
+      newSale.BreadSales();
+      newSale.BreadDiscount();
+      Assert.AreEqual(10, newSale.BreadSalesTotal);
+    }
+
   }
 }

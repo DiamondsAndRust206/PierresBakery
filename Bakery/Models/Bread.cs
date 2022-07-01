@@ -20,6 +20,10 @@ namespace BreadBakery.Models
       return BreadSalesTotal;
     }
 
+    public int BreadDiscount()
+    {
+      
+    }
 
   }
 }
