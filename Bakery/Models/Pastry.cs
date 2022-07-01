@@ -13,7 +13,11 @@ namespace PastryBakery.Models
 
     public int PastrySales()
     {
-
+      for (int i = 0; i < PastryCount; i++)
+      {
+        PastrySalesTotal += 2;
+      }
+      return PastrySalesTotal;
     }
 
   }

@@ -22,6 +22,7 @@ namespace PastryBakery.Tests
     public void PastrySales_CalculatePastryTotal_int()
     {
       Pastry newSale = new Pastry("3");
+      newSale.PastrySales();
       Assert.AreEqual(6, newSale.PastrySalesTotal);
     }
 
