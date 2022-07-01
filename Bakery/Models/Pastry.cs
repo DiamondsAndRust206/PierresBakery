@@ -30,6 +30,10 @@ namespace PastryBakery.Models
       {
         PastrySalesTotal -= 2;
       }
+      else
+      {
+        return PastrySalesTotal;
+      }
       return PastrySalesTotal;
     }
 
