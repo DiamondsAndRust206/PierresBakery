@@ -25,6 +25,10 @@ namespace PastryBakery.Models
       if (PastryCount >= 3 && PastryCount <= 5)
       {
         PastrySalesTotal -= 1;
+      } 
+      else if (PastryCount >= 6)
+      {
+        PastrySalesTotal -= 2;
       }
       return PastrySalesTotal;
     }
