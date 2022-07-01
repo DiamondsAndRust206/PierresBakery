@@ -25,6 +25,14 @@ namespace PastryBakery.Tests
       newSale.PastrySales();
       Assert.AreEqual(6, newSale.PastrySalesTotal);
     }
+    [TestMethod]
+    public void PastryDiscount_DiscountPastries_int()
+    {
+      Pastry newSale = new Pastry("3");
+      newSale.PastrySales();
+      newSale.PastryDiscount();
+      Assert.AreEqual(5, newSale.PastrySalesTotal);
+    }
 
   }
 }

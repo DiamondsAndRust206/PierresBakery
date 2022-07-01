@@ -20,5 +20,10 @@ namespace PastryBakery.Models
       return PastrySalesTotal;
     }
 
+    public int PastryDiscount()
+    {
+      
+    }
+
   }
 }
