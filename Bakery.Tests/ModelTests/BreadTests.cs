@@ -18,5 +18,12 @@ namespace BreadBakery.Tests
       Bread newSale = new Bread("3");
       Assert.AreEqual(3, newSale.BreadCount);
     }
+    [TestMethod]
+    public void BreadSales_CalculatesBreadTotal_int()
+    {
+      Bread newSale = new Bread("3")
+      newSale.BreadSales();
+      Assert.AreEqual(15, newSale.BreadSalesTotal);
+    }
   }
 }

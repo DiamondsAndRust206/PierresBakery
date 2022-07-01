@@ -6,6 +6,11 @@ namespace BreadBakery.Models
     public Bread(string bread)
     {
       BreadCount = int.Parse(bread);
+      BreadSalesTotal = 0;
+    }
+
+    public int BreadSales()
+    {
       
     }
   }
