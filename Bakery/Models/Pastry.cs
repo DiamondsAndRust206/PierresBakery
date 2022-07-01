@@ -22,7 +22,11 @@ namespace PastryBakery.Models
 
     public int PastryDiscount()
     {
-      
+      if (PastryCount >= 3 && PastryCount <= 5)
+      {
+        PastrySalesTotal -= 1;
+      }
+      return PastrySalesTotal;
     }
 
   }
