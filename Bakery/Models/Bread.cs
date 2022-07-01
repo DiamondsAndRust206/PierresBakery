@@ -22,7 +22,11 @@ namespace BreadBakery.Models
 
     public int BreadDiscount()
     {
-      
+      if (BreadCount % 3 == 0)
+      {
+        BreadSalesTotal -= 5;
+      }
+      return BreadSalesTotal;
     }
 
   }
