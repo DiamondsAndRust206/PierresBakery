@@ -18,6 +18,12 @@ namespace PastryBakery.Tests
       Pastry newSale = new Pastry("3");
       Assert.AreEqual(3, newSale.PastryCount);
     }
+    [TestMethod]
+    public void PastrySales_CalculatePastryTotal_int()
+    {
+      Pastry newSale = new Pastry("3");
+      Assert.AreEqual(6, newSale.PastrySalesTotal);
+    }
 
   }
 }
