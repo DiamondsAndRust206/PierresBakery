@@ -21,7 +21,7 @@ namespace BreadBakery.Tests
     [TestMethod]
     public void BreadSales_CalculatesBreadTotal_int()
     {
-      Bread newSale = new Bread("3")
+      Bread newSale = new Bread("3");
       newSale.BreadSales();
       Assert.AreEqual(15, newSale.BreadSalesTotal);
     }
