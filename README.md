@@ -1,6 +1,6 @@
 # Pierre's Bakery
 
-#### By_ **Ryan Gibson**_
+#### By _**Ryan Gibson**_
 
 #### Bakery program that calculates total price of the bread and pastries a user orders.
 
