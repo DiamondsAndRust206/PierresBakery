@@ -13,11 +13,11 @@
 * VS Code
 
 ## Description
-This program was built with C# and is run in the console. In Pierre's Bakery, when first running the program the console will welcome the user and display the prices for both the bread and the pastries. Next, it will ask the user how many loaves of bread they would like. After that, it will ask how many pastries the user would like. Once the program has both the inputs it will calculate the total price with any discounts. For the bread the discount is every third loaf is free. Pastry discounts are a dollar off between three and five pastries, and two dollars off every half dozen. Once the total price is calculated and displayed it will ask the user if they would like to complete the purchase with a yes or no question. If yes, the transaction is complete. If no the order is canceled. After either answer, yes or no, you will be directed to the top to the main menu.
+This program was built with C# and is run in the console. In Pierre's Bakery, when first running the program the console will welcome the user and display the prices for both the bread and the pastries. Next, it will ask the user how many loaves of bread they would like. After that, it will ask how many pastries the user would like. Once the program has both the inputs it will calculate the total price with any discounts. For the bread the discount is every third loaf is free. Pastry discounts are a dollar off between three and five pastries, and two dollars off every half dozen. Once the total price is calculated and displayed, it will ask the user if they would like to complete the purchase with a yes or no question. If yes, the transaction is complete. If no the order is canceled. After either answer, yes or no, you will be directed to the top to the main menu.
 
 ## Setup/Installation Requirements
 
-* AT https://github.com/DiamondsAndRust206/PierresBakery.git copy the git repository url from the green "code" button.
+* AT https://github.com/DiamondsAndRust206/PierresBakery.git copy the git repository URL from the green "code" button.
 * Open a shell program & navigate to your desktop.
 * Clone the repository using the copied URL and the "git clone" command.
 * In the shell program, navigate to the root directory of the newly created file called "PierresBakery".
