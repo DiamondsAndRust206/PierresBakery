@@ -28,7 +28,8 @@ namespace PastryBakery.Models
       } 
       else if (PastryCount >= 6)
       {
-        PastrySalesTotal -= 2;
+        int saleCount = PastryCount / 6;
+        PastrySalesTotal -= (saleCount * 2);
       }
       else
       {
