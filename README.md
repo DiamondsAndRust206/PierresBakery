@@ -32,7 +32,7 @@ This program was built with C# and is run in the console. In Pierre's Bakery, wh
 
 ## Known Bugs
 
-*_No known bugs_
+* _No known bugs_
 
 ## License
 
