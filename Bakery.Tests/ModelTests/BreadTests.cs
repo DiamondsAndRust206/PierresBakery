@@ -33,6 +33,14 @@ namespace BreadBakery.Tests
       newSale.BreadDiscount();
       Assert.AreEqual(10, newSale.BreadSalesTotal);
     }
+    [TestMethod]
+    public void BreadDiscount_EveryThirdLoafMinusFive_int()
+    {
+      Bread newSale = new Bread("6");
+      newSale.BreadSales();
+      newSale.BreadDiscount();
+      Assert.AreEqual(20, newSale.BreadSalesTotal);
+    }
 
   }
 }

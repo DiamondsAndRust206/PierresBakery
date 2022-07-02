@@ -49,8 +49,8 @@ namespace PastryBakery.Tests
       newSale.PastryDiscount();
       Assert.AreEqual(4, newSale.PastrySalesTotal);
     }
-        [TestMethod]
-    public void PastryDiscount_DozenPastries_int()
+    [TestMethod]
+    public void PastryDiscount_EverySixPastriesMinusTwo_int()
     {
       Pastry newSale = new Pastry("12");
       newSale.PastrySales();
